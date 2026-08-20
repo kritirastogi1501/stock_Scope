@@ -59,8 +59,7 @@ server/
 supabase/
   migrations/    SQL schema + Row Level Security policies
 ```
-
-## Setup
+```Setup
 
 ### 1. Database (Supabase)
 
@@ -101,7 +100,7 @@ npm install
 npm run dev       # http://localhost:5173
 ```
 
-The frontend and backend run as two separate processes in development.
+```The frontend and backend run as two separate processes in development.
 
 ## Notes on this package
 
@@ -117,4 +116,4 @@ The frontend and backend run as two separate processes in development.
 
 > StockScope AI provides research and educational information only. It
 > does not constitute investment advice, a recommendation, or a
-> guarantee of future performance.
+> guarantee of future performance.```
