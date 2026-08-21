@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+  background-color: #F4F6F9;
+  color: #0E1F38;
+}
+
+body {
+  font-family: 'Inter', system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #DCE1EA;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #C3CBDA;
+}
+
+.tabular {
+  font-variant-numeric: tabular-nums;
+}
+
+.data-mono {
+  font-family: 'IBM Plex Mono', ui-monospace, monospace;
+}
+
+@media print {
+  .no-print {
+    display: none !important;
+  }
+  body {
+    background: white !important;
+  }
+}
